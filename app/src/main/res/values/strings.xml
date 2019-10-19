@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Movie World</string>
+
+    <string name="title_movies">Movies</string>
+    <string name="title_tv_shows">TV Shows</string>
+    <string name="title_favorites">Favorites</string>
+    <string name="title_detail_movie">Detail Movie</string>
+    <string name="title_detail_tv">Detail TV</string>
+
+    <string name="poster">Poster</string>
+    <string name="backdrop">Backdrop</string>
+    <string name="overview">Overview</string>
+
+    <string name="movie_title">Movie or TV Show</string>
+    <string name="movie_release">January 1, 2019</string>
+    <string name="movie_overview">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
+
+    <string name="favorite">Favorite</string>
+    <string name="remove">Remove</string>
+    <string name="change_language">Change Language</string>
+
+
+    <string name="bahasa">Bahasa Indonesia</string>
+    <string name="english">English</string>
+    <string name="already_favorited">already favorited</string>
+    <string name="added_to_favorite">added to your favorite list</string>
+    <string name="removed_from_favorite">removed from favorite list</string>
+    <string name="language_param">en-US</string>
+    <string name="retry">Try Again</string>
+
+    <string name="search">Search</string>
+    <string name="search_hint">Search</string>
+    <string name="no_data_found">No data found</string>
+
+    <string name="appwidget_text">FAVORITE MOVIE</string>
+
+    <string name="empty_text">NO DATA</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="general">General</string>
+    <string name="notifications">Notifications</string>
+
+
+
+    <string name="key_pref_language" translatable="false">pref_language</string>
+    <string name="key_pref_daily_reminder" translatable="false">pref_daily_reminder</string>
+    <string name="key_pref_release_reminder" translatable="false">pref_release_reminder</string>
+
+    <string name="pref_language_title">Application Language</string>
+    <string name="pref_language_summary">Choose application language</string>
+    <string name="pref_release_title">Release Reminder</string>
+    <string name="pref_release_summary">Reminder showing the movie that released today</string>
+    <string name="pref_daily_title">Daily Reminder</string>
+    <string name="pref_daily_summary">Reminder for return to app</string>
+
+    <string name="daily_reminder">Daily Reminder</string>
+    <string name="release_reminder">Release Reminder</string>
+    <string name="released_today">released today</string>
+    <string name="movies_released_today">movie(s) released today</string>
+
+</resources>

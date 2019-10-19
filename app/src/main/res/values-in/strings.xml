@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Movie World</string>
+
+    <string name="title_movies">Film</string>
+    <string name="title_tv_shows">Acara TV</string>
+    <string name="title_favorites">Favorit</string>
+    <string name="title_detail_movie">Detail Film</string>
+    <string name="title_detail_tv">Detail Acara TV</string>
+
+    <string name="poster">Poster</string>
+    <string name="backdrop">Latar Belakang</string>
+    <string name="overview">Sinopsis</string>
+
+    <string name="movie_title">Film atau acara TV</string>
+    <string name="movie_release">1 Januari 2019</string>
+    <string name="movie_overview">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
+
+    <string name="favorite">Favorit</string>
+    <string name="remove">Hapus</string>
+    <string name="change_language">Ubah Bahasa</string>
+
+
+    <string name="bahasa">Bahasa Indonesia</string>
+    <string name="english">Inggris</string>
+    <string name="already_favorited">sudah difavoritkan</string>
+    <string name="added_to_favorite">ditambahkan ke dalam daftar favorite</string>
+    <string name="removed_from_favorite">dihapus dari daftar favorite</string>
+    <string name="language_param">id-ID</string>
+    <string name="retry">Coba Lagi</string>
+
+    <string name="search">Pencarian</string>
+    <string name="search_hint">Pencarian</string>
+    <string name="no_data_found">Data tidak ditemukan</string>
+
+    <string name="appwidget_text">FILM FAVORIT</string>
+
+    <string name="empty_text">KOSONG</string>
+
+    <string name="action_settings">Pengaturan</string>
+    <string name="general">Umum</string>
+    <string name="notifications">Notifikasi</string>
+
+
+    <string name="pref_language_title">Bahasa Aplikasi</string>
+    <string name="pref_language_summary">Pilih bahasa aplikasi</string>
+    <string name="pref_release_title">Peringatan Rilis</string>
+    <string name="pref_release_summary">Peringatan untuk film yang dirilis hari ini</string>
+    <string name="pref_daily_title">Peringatan Harian</string>
+    <string name="pref_daily_summary">Peringatan untuk kembali membuka aplikasi</string>
+
+    <string name="daily_reminder">Pengingat Harian</string>
+    <string name="release_reminder">Pengingat Rilis</string>
+    <string name="released_today">dirilis hari ini</string>
+    <string name="movies_released_today">film dirilis hari ini</string>
+
+</resources>

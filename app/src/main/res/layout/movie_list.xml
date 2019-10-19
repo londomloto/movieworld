@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:bind="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="movie"
+            type="com.digitalent.submission.movieworld.model.Movie" />
+
+        <variable
+            name="viewmodel"
+            type="com.digitalent.submission.movieworld.vm.MovieViewModel" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="4dp"
+        card_view:cardCornerRadius="4dp"
+        android:background="@drawable/record_ripple">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/movie_img_poster"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:scaleType="fitXY"
+                android:contentDescription="@string/poster"
+                bind:moviePoster="@{movie.poster}"
+                tools:src="@drawable/poster_bohemian"/>
+
+            <TextView
+                android:id="@+id/movie_txt_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/activity_vertical_margin"
+                android:layout_marginEnd="32dp"
+                android:layout_toEndOf="@id/movie_img_poster"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:text="@{movie.caption}"
+                tools:text="@string/movie_title" />
+
+            <TextView
+                android:id="@+id/movie_txt_release"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/movie_txt_title"
+                android:layout_toEndOf="@id/movie_img_poster"
+                android:layout_marginStart="@dimen/activity_vertical_margin"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:textSize="13sp"
+                bind:movieRelease="@{movie}"
+                tools:text="@string/movie_release"/>
+
+            <TextView
+                android:id="@+id/movie_txt_overview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/movie_txt_release"
+                android:layout_marginStart="@dimen/activity_vertical_margin"
+                android:layout_marginEnd="32dp"
+                android:layout_marginBottom="16dp"
+                android:layout_toEndOf="@id/movie_img_poster"
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:text="@{movie.overview}"
+                tools:text="@string/movie_overview" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:contentDescription="@string/favorite"
+                android:src="@drawable/ic_favorite_border_black"
+                android:onClick="@{() -> viewmodel.onFavoriteClick(movie)}"/>
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</layout>
+
