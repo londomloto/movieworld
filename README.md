@@ -1,2 +1,2 @@
 # Movie World
-Proyek untuk MADE (Menjadi Android Developer Expert) dicoding.com
+Proyek untuk *final submission* **MADE (Menjadi Android Developer Expert)** [dicoding.com](dicoding.com)
