@@ -1,5 +1,5 @@
 # Movie World
-Proyek untuk *final submission* **MADE (Menjadi Android Developer Expert)** at [dicoding.com](https://dicoding.com)
+Proyek untuk **MADE (Menjadi Android Developer Expert)** *final submission* di [dicoding.com](https://dicoding.com)
 
 ## Tech Stack
 - Navigation
